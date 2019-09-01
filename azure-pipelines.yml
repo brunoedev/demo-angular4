@@ -24,7 +24,7 @@ stages:
       inputs:
         command: 'custom'
         workingDir: '/'
-        customCommand: 'npm install @angular/cli --save-dev'
+        customCommand: 'npm install --save-dev @angular/cli'
     - task: Npm@1
       inputs:
         command: 'custom'
